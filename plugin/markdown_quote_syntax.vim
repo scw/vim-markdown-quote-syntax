@@ -77,6 +77,12 @@ if !exists('g:markdown_quote_syntax_defaults')
         \ "erlang" : {
         \   "start" : "erlang",
         \},
+        \ "r" : {
+        \   "start" : "\\%(r\\|rscript\\)",
+        \},
+        \ "dosbatch" : {
+        \   "start" : "\\(bat\\|dosbatch\\)",
+        \},
   \}
 endif
 
