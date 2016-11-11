@@ -83,6 +83,9 @@ if !exists('g:markdown_quote_syntax_defaults')
         \ "dosbatch" : {
         \   "start" : "\\(bat\\|dosbatch\\)",
         \},
+        \ "xml" : {
+        \   "start" : "\\(xml\\|xaml\\)",
+        \},
   \}
 endif
 
